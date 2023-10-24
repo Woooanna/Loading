@@ -6,7 +6,7 @@ public class LoadingViewModel: ObservableObject {
     @Published var image: Image
     
     init(message: String? = nil, image: Image? = nil) {
-        self.message = message ?? "Loading ... "
+        self.message = message ?? "Loading, please wait ... "
         self.image = image ?? Image("loading", bundle: .module)
     }
 }

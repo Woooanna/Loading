@@ -14,7 +14,7 @@ struct LoadingView: View {
         Color.clear.ignoresSafeArea()
             .overlay {
                 VStack{
-                    viewModel.image
+                    Rotation()
                     Text(viewModel.message)
                 }
             }
