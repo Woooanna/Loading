@@ -1,7 +1,7 @@
 
 import SwiftUI
 
-public class LoadingViewModel: ObservableObject {
+public class ActivityIndicatorViewModel: ObservableObject {
     @Published var message: String
     @Published var image: Image
     

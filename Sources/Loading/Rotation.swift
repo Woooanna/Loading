@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Rotation: View {
     @State private var isRotating = 0.0
- 
+    
     var body: some View {
         Image("loading", bundle: .module)
             .rotationEffect(.degrees(isRotating))
